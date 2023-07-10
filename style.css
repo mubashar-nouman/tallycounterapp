@@ -1,0 +1,62 @@
+body {
+    background-color: #f7f1e3;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  #app {
+    margin: 50px auto;
+    max-width: 400px;
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #546e7a;
+  }
+  
+  #counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+  }
+  
+  #counter button {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #c8e6c9;
+    color: #546e7a;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #counter button:hover {
+    background-color: #aed581;
+  }
+  
+  #count {
+    font-size: 48px;
+    color: #546e7a;
+  }
+  
+  #resetBtn {
+    font-size: 18px;
+    background-color: #ef5350;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #resetBtn:hover {
+    background-color: #e53935;
+  }
+  
